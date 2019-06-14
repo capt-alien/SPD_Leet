@@ -1,4 +1,4 @@
-Problem 1: Two Sums
+PROBLEM 1) Two Sums
 
 Given an array of integers, return indices of the two numbers such that they add up to a specific target.
 
@@ -36,3 +36,23 @@ return [0, 1].
     that would not be so time intensive. But for small lists it will work
 
     d)
+
+
+PROBLEM 2) Valid Parentheses
+
+    Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+
+    An input string is valid if:
+
+    Open brackets must be closed by the same type of brackets.
+    Open brackets must be closed in the correct order.
+    Note that an empty string is also considered valid.
+
+1) Restate Question:
+    So you want me to write a function that determines if a string has matching
+    open/close brackets.
+
+2) clarifying questions:
+    Will there be other words or just brackets in this string?
+    How big will the string be?
+    Is it just '()', {} and '[]'?
