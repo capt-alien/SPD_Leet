@@ -56,3 +56,23 @@ PROBLEM 2) Valid Parentheses
     Will there be other words or just brackets in this string?
     How big will the string be?
     Is it just '()', {} and '[]'?
+    Do they need to be sequential?
+
+3) state assumptions:
+    A) input will be strings
+    b) output will be a boolean to see if string is Valid
+    c) Brackets need to be in proper closing order
+
+4) Brainstorm solutions
+    a) I think I can do this using a stack. we could do this with regular lists But
+        it could get complicated and wouldn't keep the order. I think having a reverse order stack would be the best solution
+
+    b) I think having a stack that appends to the end of an array would be the
+        quickest and most memory effective solution. We could use a hash table
+        speed it up a bit but that would require more code.
+
+    c) 
+
+
+
+    c)
