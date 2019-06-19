@@ -30,7 +30,6 @@ def isValid(string):
 
 #test
 if __name__ == "__main__":
-
     test_a = '({[]})'
     test_b = '({)}[{]}'
     test_c = '{)[}(}'
